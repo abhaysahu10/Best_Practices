@@ -6,10 +6,8 @@ int pcount(int num1, int num2)
     int i, j, flag, temp, count = 0;
  
     if (num2 < 2)
-    {	
-	count=0;
-       printf("Number of primes between are %d \n",count);
-        exit(0);
+    {
+        return 0;
     }
     temp = num1;
     if ( num1 % 2 == 0)

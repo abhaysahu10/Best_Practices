@@ -2,7 +2,7 @@
 #<TAB>Command
 
 # Name of the Project
-PROJT_NAME = IPAddress
+PROJT_NAME = BitMask
 TEST_PROJT_NAME = Test_$(PROJT_NAME)
 
 # Output directory
@@ -29,8 +29,9 @@ endif
 MAIN_NAME = main.c
 
 # All source code files
-SRC = src/Bitwise.c\
-src/unions.c
+SRC = src/SetBit.c\
+src/ClearBit.c\
+src/FlipBit.c
 
 # All test source files
 #TEST_SRC = unit_test/fibo_test.c\
